@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativelogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".loginpage">
+
+
+
+
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="474dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Enter Mobile no"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:selectAllOnFocus="true"
+        android:textSize="18dp"
+        tools:paddingStart="15dp" />
+
+
+
+
+        <EditText
+            android:id="@+id/passwordtext"
+
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="51dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="359dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textSize="18dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:layout_alignBottom="@+id/passwordtext"
+        android:layout_marginStart="51dp"
+        android:layout_marginBottom="-75dp"
+        android:text="Show password"
+        android:textSize="18sp" />
+
+
+
+    <Button
+        android:id="@+id/logintohome"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="127dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="serif"
+        android:text="Log In"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#172686"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:text="Log In" />
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/emailtext"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="-255dp"
+        android:text="Forgotten password?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#172686"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/newuser"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="59dp"
+        android:paddingStart="5dp"
+        android:text="New User? Sign Up"
+        android:textAlignment="center"
+        android:textColor="#172686"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

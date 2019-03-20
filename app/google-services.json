@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "597793895388",
+    "firebase_url": "https://anndaan-deeea.firebaseio.com",
+    "project_id": "anndaan-deeea",
+    "storage_bucket": "anndaan-deeea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597793895388:android:4b28e10f81df0146",
+        "android_client_info": {
+          "package_name": "com.example.mh1535547.anndaan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597793895388-5g7q0hvfmbmhigm8icg0r8suvrnipdlq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mh1535547.anndaan",
+            "certificate_hash": "54667ed1428f933ca8df2bf7c6f68de48ba4caa6"
+          }
+        },
+        {
+          "client_id": "597793895388-q1hcur2ltlbgkvq0lr5l8nkcdtv4skrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSFPUx275nhDahDevsFXIW2JJ_1ouIdaU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597793895388-q1hcur2ltlbgkvq0lr5l8nkcdtv4skrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

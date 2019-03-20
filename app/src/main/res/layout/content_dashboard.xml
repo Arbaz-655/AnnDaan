@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".dashboard"
+    tools:showIn="@layout/app_bar_dashboard">
+
+    <ImageButton
+        android:id="@+id/donatebutton"
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="348dp"
+        app:srcCompat="@drawable/donation" />
+
+    <ImageButton
+        android:id="@+id/procurebutton"
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="37dp"
+        app:srcCompat="@drawable/procure" />
+</RelativeLayout>
